@@ -13,8 +13,8 @@ import java.util.Arrays;
 
 public class MainActivity extends Activity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    protected void onCreate(Bundle ss) {
+        super.onCreate(ss);
         setContentView(R.layout.activity_main);
 
         EditText E1 = findViewById(R.id.e1);
